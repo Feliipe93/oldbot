@@ -1,0 +1,1 @@
+#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Policies\_LoadHotkeysPolicy.ahk

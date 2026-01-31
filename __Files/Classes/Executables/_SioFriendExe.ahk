@@ -1,0 +1,11 @@
+#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Executables\_AbstractExe.ahk
+
+class _SioFriendExe extends _AbstractExe
+{
+    static NAME := "SioFriend"
+
+    __New()
+    {
+        guardAgainstInstantiation(this)
+    }
+}
