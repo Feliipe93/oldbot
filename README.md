@@ -20,7 +20,7 @@ For years, OldBot was my creative outlet, my side income, and honestly, a big pa
 
 **I learned to program by writing this bot.**
 
-No AI ever touched this code, it was written before AI for coding a thing. Everything in here was written by me, or copied from some random Stack Overflow or AutoHotkey forum post.
+No AI ever touched this code, it was written before AI for coding was a thing. Everything in here was written by me, or copied from some random Stack Overflow or AutoHotkey forum post.
 
 That means somewhere in these 50,000+ lines, you'll find:
 - Variable names that made sense at 2 AM (they don't anymore)
@@ -34,10 +34,8 @@ That means somewhere in these 50,000+ lines, you'll find:
 
 If you're learning, treat this as a museum of "how things evolved" rather than "how things should be done." The early files are... humbling. The later files are better. That's growth.
 
-If you're an experienced dev, please be kind. We all started somewhere, and my "somewhere" is immortalized in this repo forever.
 
-
-## Why Open Source Now?
+## Why Open Source?
 
 Life moves on. My career grew, priorities shifted, and the time I once had for maintaining OldBot and supporting all the users on Discord, became time I needed elsewhere. 
 
@@ -47,13 +45,13 @@ Rather than let the code rot on a private repo, I wanted to give it a proper far
 
 ## Important Notice
 
-**This project is not actively maintained, but pull requests are welcome.**
+**This project is not actively maintained by me, but pull requests are welcome.**
 
 - No support will be provided
 - Pull requests for bug fixes and improvements are welcome
 
 The code has been modified to work without authentication, you can use it freely and it still works on all the servers up to the day this repo was created (2026-01-31).
-I may update it from time to time, nothing guaranteed, if I have the time or motivation.
+I may update it from time to time, nothing guaranteed, if I have the time or motivation($).
 
 **Use at your own risk.**
 
@@ -64,7 +62,6 @@ I may update it from time to time, nothing guaranteed, if I have the time or mot
 1. Download `OldBot_Installer.exe` from the [Releases page](https://github.com/alfredomtx/oldbot/releases/tag/v18.9)
 2. Run the installer and follow the prompts
 3. Launch OldBot from the installed location
-4. Select your Tibia client window
 
 ### Option B: Running from Source (For Developers)
 
@@ -72,7 +69,6 @@ I may update it from time to time, nothing guaranteed, if I have the time or mot
 2. Install AutoHotkey v1.1 using `Data/AutoHotkey_1.1.32.00_setup.exe` (included in the repo)
 3. **Run `Setup.ahk` once** (configures paths for your system)
 4. Run `OldBot Pro.ahk`
-5. Select your Tibia client window
 
 ##  What's Inside (For Learners)
 
@@ -88,7 +84,7 @@ If you're here to learn or you're just curious, you're in the right place. This 
 | Waypoint Systems | Pathfinding and navigation automation |
 | Multi-threading | Parallel execution patterns in AHK v1 |
 
-And a ton of other stuff that I might not even remember right now.
+And a ton of other interesting and hacky stuff.
 
 **Total: ~50,000+ lines of battle-tested AutoHotkey v1 code.**
 
@@ -107,5 +103,3 @@ MIT License - See [LICENSE](LICENSE) file.
 ---
 
 *Built with mass amounts of coffee by Alfredo Menezes, 2017-2026*
-
-*"It's not about the destination, it's about the mass amounts of coffee consumed along the way."*
