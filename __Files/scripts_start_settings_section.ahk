@@ -11,33 +11,33 @@ SetWorkingDir, % workingDir
 /*
 Includes
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\scripts_autoload_section.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\scripts_autoload_section.ahk
 
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\_Core.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\_Core.ahk
 
 /*
 Project files
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\default_global_variables.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\default_functions.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Shared\OldBot\default_functions.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\mouse_keyboard_functions.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\default_global_variables.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\default_functions.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Shared\OldBot\default_functions.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\mouse_keyboard_functions.ahk
 
 /*
 Classes
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes/Cavebot\_CavebotScript.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes/Client\_ClientAreas.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\_Encryptor.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes/_ProcessHandler.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes/_OldBotSettings.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes/Client\_TibiaClient.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Config\_ImagesConfig.ahk ; depends on TibiaClient
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes/Cavebot\_CavebotScript.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes/Client\_ClientAreas.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\_Encryptor.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes/_ProcessHandler.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes/_OldBotSettings.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes/Client\_TibiaClient.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Config\_ImagesConfig.ahk ; depends on TibiaClient
 
 /*
 Libraries
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\ILibraries.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\ILibraries.ahk
 
 
 if (A_IsCompiled)

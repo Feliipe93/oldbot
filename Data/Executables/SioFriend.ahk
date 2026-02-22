@@ -5,25 +5,25 @@ Copyright © 2017. Todos os direitos reservados.
 OldBot is developed by Alfredo Menezes, Brazil.
 Copyright © 2017. All rights reserved.
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\scripts_start_settings_section.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\scripts_start_settings_section.ahk
 /*
 Includes folder
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\ISupport.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\IHealing.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\IHealing.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\Sio.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\Targeting.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\ISupport.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\IHealing.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\IHealing.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\Sio.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\Targeting.ahk
 
 /*
 system
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Cavebot\_CavebotSystem.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Cavebot\_CavebotSystem.ahk
 
 /*
 others
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Client\_ClientAreas.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Client\_ClientAreas.ahk
 
 
 /*
@@ -164,4 +164,4 @@ CooldownExeta:
 return
 
 
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\default_cavebot_functions.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\default_cavebot_functions.ahk

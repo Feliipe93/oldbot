@@ -1,11 +1,11 @@
-﻿/*
-OldBot � desenvolvido por Alfredo Menezes, Brasil.
-Copyright � 2017. Todos os direitos reservados.
+/*
+OldBot ? desenvolvido por Alfredo Menezes, Brasil.
+Copyright ? 2017. Todos os direitos reservados.
 
 OldBot is developed by Alfredo Menezes, Brazil.
-Copyright � 2017. All rights reserved.
+Copyright ? 2017. All rights reserved.
 */
-#WarnContinuableException Off
+#Warn All, Off
 #SingleInstance, Force
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; Process, Priority, %PID%, High
@@ -26,31 +26,31 @@ ListLines Off
 ;@Ahk2Exe-IgnoreEnd
 
 ; OnExit("restoreCursor")
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\default_profile.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\IBigA.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\default_profile.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\IBigA.ahk
 
 _Launcher.onStart()
 
 ; msgbox started
 ; exitapp
 
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\_Launcher.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\_ProcessHandler.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Client\Json\_SettingsJson.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Core\_Version.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Executables\_LauncherExe.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\GUI\_UpdaterGUI.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Settings\Ini\_LauncherIniSettings.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\IComponents.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\IConfig.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\IExecutables.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\IRequests.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\libraries\JSON.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Shared\Helpers\ISharedHelpers.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Shared\OldBot\Objects\_Icon.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Shared\OldBot\Settings\Ini\_GlobalIniSettings.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Shared\OldBot\Settings\Ini\_OldBotIniSettings.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Shared\OldBot\Settings\Objects\IObjects.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\_Launcher.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\_ProcessHandler.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Client\Json\_SettingsJson.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Core\_Version.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Executables\_LauncherExe.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\GUI\_UpdaterGUI.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Settings\Ini\_LauncherIniSettings.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\IComponents.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\IConfig.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\IExecutables.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\IRequests.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\libraries\JSON.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Shared\Helpers\ISharedHelpers.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Shared\OldBot\Objects\_Icon.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Shared\OldBot\Settings\Ini\_GlobalIniSettings.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Shared\OldBot\Settings\Ini\_OldBotIniSettings.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Shared\OldBot\Settings\Objects\IObjects.ahk
 
 _Launcher.initialize()
 
@@ -97,7 +97,7 @@ checkOldBotOpened:
         if (seconds > _Launcher.TIMEOUT) {
             Gui, Destroy
             Gui, Watermark:Destroy
-            Msgbox, 48,, % txt("Mais de " _Launcher.TIMEOUT " segundos tentando abrir o execut�vel """ _OldBotExe.getName() """, algo deu errado.`nPor favor contate o suporte.", "More than " _Launcher.TIMEOUT " seconds trying to open """ _OldBotExe.getName() """ executable, something went wrong.`nPlease contact support.")
+            Msgbox, 48,, % txt("Mais de " _Launcher.TIMEOUT " segundos tentando abrir o execut?vel """ _OldBotExe.getName() """, algo deu errado.`nPor favor contate o suporte.", "More than " _Launcher.TIMEOUT " seconds trying to open """ _OldBotExe.getName() """ executable, something went wrong.`nPlease contact support.")
         }
         ExitApp
     }

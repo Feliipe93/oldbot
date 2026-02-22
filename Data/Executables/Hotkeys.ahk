@@ -6,17 +6,17 @@ OldBot is developed by Alfredo Menezes, Brazil.
 Copyright ? 2017. All rights reserved.
 */
 
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\scripts_start_settings_section.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\scripts_start_settings_section.ahk
 
 /*
 Includes folder
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\IHealing.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\ISupport.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\ILooting.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\Targeting.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\Sio.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\IActionScripts.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\IHealing.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\ISupport.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\ILooting.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\Targeting.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\Sio.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\IActionScripts.ahk
 
 MouseGetPos, x, y
 Gui, Initializing:Destroy
@@ -29,27 +29,27 @@ Gui, Initializing:Show, % "x" x + 10 "y " y + 10 " NoActivate",
 /*
 others
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Script\_ScriptImages.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Script\_ScriptImages.ahk
 
 /*
 handler
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Hotkeys\_HotkeysHandler.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\_ItemsHandler.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Waypoint\_WaypointHandler.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Hotkeys\_HotkeysHandler.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\_ItemsHandler.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Waypoint\_WaypointHandler.ahk
 
 /*
 system
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Cavebot\_CavebotSystem.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Hotkeys\_HotkeysSystem.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Cavebot\_CavebotSystem.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Hotkeys\_HotkeysSystem.ahk
 
 /*
 others
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Cavebot\_CavebotWalker.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Waypoint\_WaypointValidation.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\Item Refill.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Cavebot\_CavebotWalker.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Waypoint\_WaypointValidation.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\Item Refill.ahk
 
 /*
 module name
@@ -270,7 +270,7 @@ CheckClientClosedMinimized:
     TibiaClient.isClientMinimized(true)
 return
 
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\default_cavebot_functions.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\default_cavebot_functions.ahk
 
 Reload() {
     Reload

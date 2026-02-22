@@ -1,6 +1,6 @@
 
 
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Shared\Helpers\_OtmlSettings.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Shared\Helpers\_OtmlSettings.ahk
 
 Class _RubinotSettings extends _OtmlSettings
 {

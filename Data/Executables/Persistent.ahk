@@ -5,37 +5,37 @@ Copyright © 2017. Todos os direitos reservados.
 OldBot is developed by Alfredo Menezes, Brazil.
 Copyright © 2017. All rights reserved.
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\scripts_start_settings_section.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\scripts_start_settings_section.ahk
 /*
 Includes folder
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\IActionScripts.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\Persistent.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\IHealing.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\ILooting.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\Sio.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\ISupport.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\Targeting.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\IActionScripts.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\Persistent.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\IHealing.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\ILooting.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\Sio.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\ISupport.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\Targeting.ahk
 
 /*
 handler
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\_ItemsHandler.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Waypoint\_WaypointHandler.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\_ItemsHandler.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Waypoint\_WaypointHandler.ahk
 
 /*
 system
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Cavebot\_CavebotSystem.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Cavebot\_CavebotSystem.ahk
 
 /*
 others
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Cavebot\_CavebotWalker.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Script\_ScriptImages.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\_Telegram.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Thread\_ThreadManager.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Waypoint\_WaypointValidation.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Cavebot\_CavebotWalker.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Script\_ScriptImages.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\_Telegram.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Thread\_ThreadManager.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Waypoint\_WaypointValidation.ahk
 
 
 /*
@@ -379,7 +379,7 @@ CheckClientClosedMinimized:
     TibiaClient.isClientMinimized(true)
 return
 
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\default_cavebot_functions.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\default_cavebot_functions.ahk
 
 
 

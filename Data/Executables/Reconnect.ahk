@@ -6,16 +6,16 @@ OldBot is developed by Alfredo Menezes, Brazil.
 Copyright © 2017. All rights reserved.
 */
 
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\scripts_start_settings_section.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\scripts_start_settings_section.ahk
 /*
 Includes folder
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\Reconnect.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\Reconnect.ahk
 
 /*
 module's specific classes
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\libraries\Gdip_All_2.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\libraries\Gdip_All_2.ahk
 
 
 /*

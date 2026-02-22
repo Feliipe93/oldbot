@@ -5,27 +5,27 @@ Copyright © 2017. Todos os direitos reservados.
 OldBot is developed by Alfredo Menezes, Brazil.
 Copyright © 2017. All rights reserved.
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\scripts_start_settings_section.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\scripts_start_settings_section.ahk
 
 
 /*
 Includes folder
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\Alerts.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\Alerts.ahk
 
 /*
 module's specific classes
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\_Telegram.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Thread\_ThreadManager.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Support\_SupportHandler.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Targeting\_TargetingHandler.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Script\_ScriptImages.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\_Telegram.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Thread\_ThreadManager.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Support\_SupportHandler.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Targeting\_TargetingHandler.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Script\_ScriptImages.ahk
 
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Cavebot\_CavebotSystem.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Support\_SupportSystem.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Targeting\_TargetingSystem.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Executables\_CavebotExe.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Cavebot\_CavebotSystem.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Support\_SupportSystem.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Targeting\_TargetingSystem.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Executables\_CavebotExe.ahk
 
 /*
 module name
@@ -206,4 +206,4 @@ CooldownExeta:
 return
 
 
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\default_cavebot_functions.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\default_cavebot_functions.ahk

@@ -1,5 +1,5 @@
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Components\Traits\HasGuiOptions.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\IComponents.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Components\Traits\HasGuiOptions.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\IComponents.ahk
 
 /**
 * @property ?int _x

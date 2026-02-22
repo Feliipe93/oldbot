@@ -5,22 +5,22 @@ Copyright © 2017. Todos os direitos reservados.
 OldBot is developed by Alfredo Menezes, Brazil.
 Copyright © 2017. All rights reserved.
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\scripts_start_settings_section.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\scripts_start_settings_section.ahk
 
 /*
 handler
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\_HotkeysHandler.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\_HotkeysHandler.ahk
 
 /*
 system
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\_HotkeysSystem.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\_HotkeysSystem.ahk
 
 /*
 others
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Script\_ScriptImages.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Script\_ScriptImages.ahk
 
 /*
 libs

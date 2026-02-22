@@ -7,7 +7,7 @@ SetWorkingDir %A_ScriptDir%
 
 ; Get current directory as the new base path
 newPath := A_ScriptDir . "\"
-oldPath := "C:\Users\Alfredo\Documents\GitHub\oldbot\"
+newPath := A_ScriptDir . "\"
 
 ; Check if already configured
 if (newPath = oldPath) {
@@ -37,6 +37,7 @@ Loop, Files, %A_ScriptDir%\*.ahk, R
     Progress, % Round(currentFile / totalFiles * 100), % "Processing: " A_LoopFileName
 
     FileRead, content, %A_LoopFilePath%
+    oldPath := "C:\Users\felip\Documents\GitHub\oldbot\"
     if InStr(content, oldPath)
     {
         StringReplace, content, content, %oldPath%, %newPath%, All

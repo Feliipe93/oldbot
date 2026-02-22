@@ -5,9 +5,9 @@ true
 OldBot is developed by Alfredo Menezes, Brazil.
 Copyright © 2024. All rights reserved.
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\scripts_start_settings_section.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\IRunemaker.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\IHealing.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\scripts_start_settings_section.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\IRunemaker.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\IHealing.ahk
 
 global moduleName := _RunemakerModule.IDENTIFIER
 

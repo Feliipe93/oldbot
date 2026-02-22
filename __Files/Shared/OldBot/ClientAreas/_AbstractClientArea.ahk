@@ -1,4 +1,4 @@
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Shared\_BaseClass.ahk
+#Include C:\Users\felip\Documents\GitHub\oldbot\__Files\Shared\_BaseClass.ahk
 
 /**
 * @property _Coordinates coordinates
@@ -311,7 +311,7 @@ class _AbstractClientArea extends _BaseClass
         IniRead, Y2, %DefaultProfile%, % this.NAME, % this.NAME "Y2", %A_Space%
 
         if (!X1 || !Y1 || !X2 || !Y2) {
-            throw exception(txt("Defina a área na tela primeiro para poder vê-la.", "Set the area on screen first to be able to see it."))
+            throw exception(txt("Defina a rea na tela primeiro para poder v-la.", "Set the area on screen first to be able to see it."))
         }
 
         c1 := new _Coordinate(X1, Y1)
@@ -330,7 +330,7 @@ class _AbstractClientArea extends _BaseClass
         ;Gui, screen_box:+Resize
 
         Loop {
-            Tooltip, % LANGUAGE = "PT-BR" ? "Clique(sem segurar) ou ""Espaço"" para desenhar um retângulo e setar a área.`n""Esc"" para cancelar." : "Click(without holding) or ""Space"" to draw a retangle and set the area.`n""Esc"" to cancel."
+            Tooltip, % LANGUAGE = "PT-BR" ? "Clique(sem segurar) ou ""Espao"" para desenhar um retngulo e setar a rea.`n""Esc"" para cancelar." : "Click(without holding) or ""Space"" to draw a retangle and set the area.`n""Esc"" to cancel."
             Sleep, 30
             if (GetKeyState("LButton"))
                 break
@@ -441,7 +441,7 @@ class _AbstractClientArea extends _BaseClass
             Y2 := instance.getY2()
 
             if (!X1 || !Y1 || !X2 || !Y2) {
-                throw exception(txt("Defina a área na tela primeiro para poder vê-la.", "Set the area on screen first to be able to see it."))
+                throw exception(txt("Defina a rea na tela primeiro para poder v-la.", "Set the area on screen first to be able to see it."))
             }
 
             WinActivate()
@@ -459,7 +459,7 @@ class _AbstractClientArea extends _BaseClass
             try {
                 Gui, screen_box:Show, x%X1% y%Y1% w%w% h%h%
             } catch {
-                throw Exception(txt("Área inválida, defina novamente.", "Invalid area, set it again."))
+                throw Exception(txt("rea invlida, defina novamente.", "Invalid area, set it again."))
                 Gui, screen_box:Destroy
                 Gui, Show
                 return

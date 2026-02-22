@@ -8,23 +8,23 @@ Copyright © 2017. All rights reserved.
 ;;;;;;;;;;;;;;; EXPERIMENTAL 13/05/22
 #WarnContinuableException Off
 
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\scripts_start_settings_section.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\scripts_start_settings_section.ahk
 /*
 Includes folder
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\IHealing.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\Item Refill.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\ISupport.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\IHealing.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\Item Refill.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\ISupport.ahk
 
 /*
 handler
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\_ItemsHandler.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\_ItemsHandler.ahk
 
 /*
 others
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Core\_MemoryManager.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Core\_MemoryManager.ahk
 
 
 /*
@@ -228,4 +228,4 @@ writeCavebotLog(Status, Text, isError := false) {
 }
 
 
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\default_cavebot_functions.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\default_cavebot_functions.ahk

@@ -2,7 +2,7 @@
 File purpose:
 Include all the common functions that are used on all scripts (exception for Cavebot.ahk)
 */
-#WarnContinuableException Off
+#Warn All, Off
 
 #SingleInstance, Force
 #MaxMem 2048

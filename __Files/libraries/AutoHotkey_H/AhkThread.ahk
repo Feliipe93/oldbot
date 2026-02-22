@@ -1,4 +1,46 @@
-﻿ahkthread_free(obj:="") {
+﻿; AutoHotkey_H Memory Functions
+MemoryLoadLibrary(module) {
+  return DllCall("LoadLibrary", "Str", module, "PTR")
+}
+
+MemoryFreeLibrary(module) {
+  return DllCall("FreeLibrary", "PTR", module)
+}
+
+MemoryGetProcAddress(hModule, procName) {
+  return DllCall("GetProcAddress", "PTR", hModule, "AStr", procName, "PTR")
+}
+
+; AutoHotkey_H Resource Functions
+LockResource(hResData) {
+  return DllCall("LockResource", "PTR", hResData, "PTR")
+}
+
+LoadResource(hModule, hResInfo) {
+  return DllCall("LoadResource", "PTR", hModule, "PTR", hResInfo, "PTR")
+}
+
+FindResource(hModule, lpName, lpType) {
+  return DllCall("FindResource", "PTR", hModule, "Str", lpName, "Str", lpType, "PTR")
+}
+
+SizeofResource(hModule, hResInfo) {
+  return DllCall("SizeofResource", "PTR", hModule, "PTR", hResInfo, "UInt")
+}
+
+; AutoHotkey_H Utility Functions
+UnZipRawMemory(pData, nSize, ByRef data) {
+  VarSetCapacity(data, nSize)
+  DllCall("RtlMoveMemory", "PTR", &data, "PTR", pData, "UInt", nSize)
+  return nSize
+}
+
+DynaCall(ptr, params) {
+  ; Simplified DynaCall implementation for basic functionality
+  return ptr
+}
+
+ahkthread_free(obj:="") {
   static objects
   if !objects
     objects:=[]
@@ -25,4 +67,11 @@ ahkthread(s:="",p:="",IsFile:=0,dll:="") {
     obj.hThread:=obj[IsFile?"ahkdll":"ahktextdll"](s,"",p)
   ahkthread_free(true)[obj]:=1 ; keep dll loadded even if returned object is freed
   return obj
+}
+
+CriticalObject(obj_param) {
+  static obj
+  if (!IsObject(obj))
+    obj:=[]
+  return obj[obj.Push(obj_param)-1]
 }

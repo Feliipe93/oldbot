@@ -6,14 +6,14 @@ OldBot is developed by Alfredo Menezes, Brazil.
 Copyright © 2017. All rights reserved.
 */
 ;;;;;;;;;;;;;;; EXPERIMENTAL 24/06/22
-#WarnContinuableException Off
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\scripts_start_settings_section.ahk
+#Warn All, Off
+#Include C:\Users\felip\Documents\GitHub\oldbot\__Files\scripts_start_settings_section.ahk
 /*
 Includes folder
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\ISupport.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\IHealing.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\Targeting.ahk
+#Include C:\Users\felip\Documents\GitHub\oldbot\__Files\Includes\ISupport.ahk
+#Include C:\Users\felip\Documents\GitHub\oldbot\__Files\Includes\IHealing.ahk
+#Include C:\Users\felip\Documents\GitHub\oldbot\__Files\Includes\Targeting.ahk
 
 
 /*
@@ -298,4 +298,4 @@ getMonsterPosition:
 CooldownExeta:
 return
 
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\default_cavebot_functions.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\default_cavebot_functions.ahk

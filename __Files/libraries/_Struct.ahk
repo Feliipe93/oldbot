@@ -38,7 +38,7 @@
 ; Example:
 ;   file:Struct_Example.ahk
 ;
-#Include <sizeof>
+#Include C:\Users\felip\Documents\GitHub\oldbot\__Files\libraries\sizeof.ahk
 Class _Struct {
   ; Data Sizes
   static PTR:=A_PtrSize,UPTR:=A_PtrSize,SHORT:=2,USHORT:=2,INT:=4,UINT:=4,__int64:=8,INT64:=8,UINT64:=8,DOUBLE:=8,FLOAT:=4,CHAR:=1,UCHAR:=1,VOID:=A_PtrSize
@@ -557,4 +557,8 @@ Class _Struct {
       NumPut(_value_,this[""]+this["`b" _key_],this["`n" _key_]) ; NumPut new value to key
     return _value_
   }
+}
+
+Struct(params*) {
+  return new _Struct(params*)
 }

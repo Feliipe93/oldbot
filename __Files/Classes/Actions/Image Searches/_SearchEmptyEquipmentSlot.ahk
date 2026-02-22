@@ -1,6 +1,6 @@
 
 
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Actions\Image Searches\_AbstractImageSearchAction.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Actions\Image Searches\_AbstractImageSearchAction.ahk
 
 class _SearchEmptyEquipmentSlot extends _AbstractImageSearchAction
 {

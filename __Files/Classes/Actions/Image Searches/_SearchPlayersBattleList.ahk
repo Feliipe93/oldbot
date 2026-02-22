@@ -1,7 +1,7 @@
 
 
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Actions\Image Searches\_AbstractImageSearchAction.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Client\Json\_TargetingJson.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Actions\Image Searches\_AbstractImageSearchAction.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Client\Json\_TargetingJson.ahk
 
 class _SearchPlayersBattleList extends _AbstractImageSearchAction
 {

@@ -1,5 +1,5 @@
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Shared\OldBot\Settings\JSON\_AbstractJsonSettings.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Config\_Folders.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Shared\OldBot\Settings\JSON\_AbstractJsonSettings.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Config\_Folders.ahk
 
 class _MarketSettings extends _AbstractJsonSettings
 {

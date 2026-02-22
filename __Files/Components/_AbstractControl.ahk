@@ -1,5 +1,5 @@
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\libraries\TT.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Components\Traits\HasGuiOptions.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\libraries\TT.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Components\Traits\HasGuiOptions.ahk
 
 /**
 * @property bool enableAfterEvent

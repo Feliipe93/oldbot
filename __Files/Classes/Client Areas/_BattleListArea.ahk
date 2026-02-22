@@ -1,5 +1,5 @@
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Shared\OldBot\ClientAreas\_AbstractClientArea.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Client\Json\_TargetingJson.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Shared\OldBot\ClientAreas\_AbstractClientArea.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Client\Json\_TargetingJson.ahk
 
 /**
 * @property array<_Coordinates> creaturePositions

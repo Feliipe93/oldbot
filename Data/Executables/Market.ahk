@@ -5,11 +5,11 @@ Copyright © 2024. Todos os direitos reservados.
 OldBot is developed by Alfredo Menezes, Brazil.
 Copyright © 2024. All rights reserved.
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\scripts_start_settings_section.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\_Market\IMarket.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\IActionScripts.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Window Events\gui_close.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Window Events\wm_lbuttondown.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\scripts_start_settings_section.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\_Market\IMarket.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\IActionScripts.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Window Events\gui_close.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Window Events\wm_lbuttondown.ahk
 
 global moduleName := _MarketModule.IDENTIFIER
 
@@ -37,4 +37,4 @@ writeCavebotLog(Status, Text, isError := false) {
 }
 
 
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\default_cavebot_functions.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\default_cavebot_functions.ahk

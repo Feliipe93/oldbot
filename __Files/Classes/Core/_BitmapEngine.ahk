@@ -1,4 +1,4 @@
-﻿/**
+/**
 * @property _Coordinates coords
 * @property _BitmapImage screenBitmap
 */

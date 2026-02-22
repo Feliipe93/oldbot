@@ -6,10 +6,10 @@ OldBot is developed by Alfredo Menezes, Brazil.
 Copyright © 2017. All rights reserved.
 */
 
-#WarnContinuableException Off
+#Warn All, Off
 #SingleInstance, Force
 #MaxMem 2048
-SetWorkingDir %A_WorkingDir% ; Ensur;es a consistent starting directory.
+SetWorkingDir %A_WorkingDir% ; Ensures a consistent starting directory.
 #NoEnv ; Recommended for performance and compatibility with future AutoHotkey releases.
 #KeyHistory 0
 #MaxHotkeysPerInterval 200
@@ -32,7 +32,7 @@ SetWinDelay, -1 ; ADDED ON 17/06/2023
 SetControlDelay, -1 ; ADDED ON 17/06/2023
 
 
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\default_profile.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\default_profile.ahk
 IniRead, LANGUAGE, %DefaultProfile%, settings, LANGUAGE, PT-BR
 
 global WORKING_ON_GUI := 0
@@ -70,37 +70,37 @@ Project files - more includes(with glabels) at the end
 /*
 Includes folder
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\_Core.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\Actions\ICavebot.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\Alerts.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\Cavebot\ICavebot.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\Client.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\Fishing.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\GUI Classes.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\GUI.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\IHealing.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\IActionScripts.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\IClientJson.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\IComponents.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\IExecutables.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\ILibraries.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\ILooting.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\IMainOldBotObjects.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\IObjects.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\IPolicies.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\IRequests.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\IRunemaker.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\ISettingsGuis.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\ISioComponents.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\ISupport.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\Item Refill.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\Navigation.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\Persistent.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\Reconnect.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\Script.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\Sio.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\Targeting.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\Waypoint.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\_Core.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\Actions\ICavebot.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\Alerts.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\Cavebot\ICavebot.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\Client.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\Fishing.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\GUI Classes.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\GUI.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\IHealing.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\IActionScripts.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\IClientJson.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\IComponents.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\IExecutables.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\ILibraries.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\ILooting.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\IMainOldBotObjects.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\IObjects.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\IPolicies.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\IRequests.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\IRunemaker.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\ISettingsGuis.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\ISioComponents.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\ISupport.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\Item Refill.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\Navigation.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\Persistent.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\Reconnect.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\Script.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\Sio.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\Targeting.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Includes\Waypoint.ahk
 /*
 Classes
 */
@@ -114,25 +114,25 @@ Classes
 
 #Include __Files\Classes\_OldBotSettings.ahk
 
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Thread\_ThreadManager.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Thread\_ThreadManager.ahk
 
 #Include __Files\Classes\_TibiaWikiAPI.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Executables\_LauncherExe.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Executables\_LauncherExe.ahk
 
 
 /*
 Others Classes
 */
 #Include __Files\Classes\Hotkeys\_HotkeyRegister.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\_Encryptor.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\_Encryptor.ahk
 #Include __Files\Classes\_ProcessHandler.ahk
 #Include __Files\Classes\_Telegram.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\_Magnifier.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\_Magnifier.ahk
 #Include __Files\Classes\Config\_ImagesConfig.ahk ; depends on TibiaClient
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\API\_API.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\API\_API.ahk
 
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\_Market\IMarket.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\_Market\IMarketGUI.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\_Market\IMarket.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\_Market\IMarketGUI.ahk
 
 DIR := A_WorkingDir
 global DefaultProfile
@@ -1761,19 +1761,19 @@ Project files
 #Include __Files\libraries\TAB\Edit.ahk
 #Include __Files\libraries\Class_LV_Rows.ahk
 
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\libraries\Gdip_All_2.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\libraries\Gdip_All_2.ahk
 
 #Include __Files\GUIs\shortcut_GUI.ahk
 
 /*
 labels
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\labels_action_script.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\labels_alerts.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Labels\Cavebot\labels_cavebot.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\labels_action_script.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\labels_alerts.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Labels\Cavebot\labels_cavebot.ahk
 ; #Include __Files\labels_cavebot.ahk
 #Include __Files\labels_fishing.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\labels_floorspy.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\labels_floorspy.ahk
 #Include __Files\labels_healing.ahk
 #Include __Files\labels_itemlist.ahk
 #Include __Files\labels_looting.ahk
@@ -1800,7 +1800,7 @@ labels
 #Include __Files\labels_hotkeys_shortcut.ahk
 
 #Include __Files\default_functions.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Shared\OldBot\default_functions.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Shared\OldBot\default_functions.ahk
 #Include __Files\GUI Helpers.ahk
 #Include __Files\default_cavebot_functions.ahk
 
@@ -1809,19 +1809,19 @@ labels
 #Include __Files\menus\menu_labels.ahk
 #Include __Files\menus\ItemListMenu.ahk
 
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\hotkeys\hotkeys_actionscript.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\hotkeys\hotkeys_floorspy.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\hotkeys\hotkeys_actionscript.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\hotkeys\hotkeys_floorspy.ahk
 #Include __Files\hotkeys\hotkeys_main.ahk
 #Include __Files\hotkeys\hotkeys_mapviewer.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\hotkeys\hotkeys_tibia.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\hotkeys\hotkeys_oldbot_window.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\hotkeys\hotkeys_waypoint.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\hotkeys\hotkeys_tibia.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\hotkeys\hotkeys_oldbot_window.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\hotkeys\hotkeys_waypoint.ahk
 
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\hotkeys\hotkeys_actionscript.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\hotkeys\hotkeys_floorspy.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\hotkeys\hotkeys_actionscript.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\hotkeys\hotkeys_floorspy.ahk
 
 #Include __Files\labels_hotkeys.ahk ; after hotkeys.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\labels_magnifier.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\labels_magnifier.ahk
 
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Window Events\gui_close.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Window Events\gui_escape.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Window Events\gui_close.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Window Events\gui_escape.ahk

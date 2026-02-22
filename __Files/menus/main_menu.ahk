@@ -9,8 +9,8 @@ CreateMenus:
 
     #Include __Files\menus\menu_tutorials.ahk
     #Include __Files\menus\menu_modules.ahk
-    #Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\GUI\_TestGameAreasMenu.ahk
-    #Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\GUI\_ClientFinderMenu.ahk
+    #Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\GUI\_TestGameAreasMenu.ahk
+    #Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\GUI\_ClientFinderMenu.ahk
 
     Menu, MyMenuBar, Add, % "&" txt("Arquivo", "File"), :FileMenu
     icon := _Icon.get(_Icon.SETTINGS)

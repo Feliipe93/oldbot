@@ -1,5 +1,5 @@
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Client\Json\_ItemRefillJson.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Client Areas\Equipment\_AbstractEquipmentArea.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Client\Json\_ItemRefillJson.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Client Areas\Equipment\_AbstractEquipmentArea.ahk
 
 global TORCH_X
 global TORCH_Y

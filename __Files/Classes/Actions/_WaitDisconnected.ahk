@@ -1,8 +1,8 @@
 
 
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Actions\_AbstractAction.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Client\Json\_CavebotJson.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Actions\_ReleaseArrowKeys.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Actions\_AbstractAction.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Client\Json\_CavebotJson.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Actions\_ReleaseArrowKeys.ahk
 
 class _WaitDisconnected extends _AbstractAction
 {

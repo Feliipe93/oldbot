@@ -1,4 +1,4 @@
-﻿#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Config\_Folders.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes\Config\_Folders.ahk
 
 Class _Launcher extends _BaseClass
 {
@@ -60,7 +60,7 @@ Class _Launcher extends _BaseClass
 
             Gui, Watermark:Destroy
             if (e.What == "LocalHashesException") {
-                Msgbox, 48, % "Local Hashes Error", % txt("Falha ao analisar os arquivos locais, fa�a o seguinte:`n`n1) Adicione a pasta do OldBot(" _Str.quoted(A_WorkingDir) ") nas exce��es do Windows Defender/antivirus.`n2) Reinicie o computador.", "Failed to analyze local files, do the following:`n`n1) Add the OldBot folder(" _Str.quoted(A_WorkingDir) ") to the Windows Defender/antivirus exceptions.`n2) Restart your computer.")
+                Msgbox, 48, % "Local Hashes Error", % txt("Falha ao analisar os arquivos locais, fa?a o seguinte:`n`n1) Adicione a pasta do OldBot(" _Str.quoted(A_WorkingDir) ") nas exce??es do Windows Defender/antivirus.`n2) Reinicie o computador.", "Failed to analyze local files, do the following:`n`n1) Add the OldBot folder(" _Str.quoted(A_WorkingDir) ") to the Windows Defender/antivirus exceptions.`n2) Restart your computer.")
             } else {
                 _Logger.msgboxException(16, e, "updateFlow")
             }
@@ -113,7 +113,7 @@ Class _Launcher extends _BaseClass
         } catch e {
             if (e.Message != "NoLoginInfo") {
                 Gui, Watermark:Destroy
-                _Logger.msgboxException(16, e, txt("Falha na autentica��o", "Authentication failure"), "getLoginToken")
+                _Logger.msgboxException(16, e, txt("Falha na autentica??o", "Authentication failure"), "getLoginToken")
             }
 
             return false
@@ -276,7 +276,7 @@ Class _Launcher extends _BaseClass
         path := A_WorkingDir "\" _OldBotExe.getName()
         if (!FileExist(path)) {
             Gui, Watermark:Destroy
-            msgbox, 16,% "OldBot Launcher",  % LANGUAGE = "PT-BR" ? "N�o foi poss�vel abrir o execut�vel em """ path """.`n`nIsto acontece quando o seu antivirus/Windows Defender deleta o arquivo.`n`nRESOLU��O: desabilite o antivirus/Windows Defender e execute o instalador do OldBot novamente na op��o ""Reparar"" para restauras os arquivos deletados." : "It was not possible to open the executable in """ path """.`n`nThis happens when your antivirus/Windows Defender delete the file.`n`nFIX: disable the antivirus/Windows Defender and run the OldBot installer again in the ""Repair"" option to restore the deleted files."
+            msgbox, 16,% "OldBot Launcher",  % LANGUAGE = "PT-BR" ? "N?o foi poss?vel abrir o execut?vel em """ path """.`n`nIsto acontece quando o seu antivirus/Windows Defender deleta o arquivo.`n`nRESOLU??O: desabilite o antivirus/Windows Defender e execute o instalador do OldBot novamente na op??o ""Reparar"" para restauras os arquivos deletados." : "It was not possible to open the executable in """ path """.`n`nThis happens when your antivirus/Windows Defender delete the file.`n`nFIX: disable the antivirus/Windows Defender and run the OldBot installer again in the ""Repair"" option to restore the deleted files."
             ExitApp
         }
 
@@ -434,7 +434,7 @@ Class _Launcher extends _BaseClass
     {
         if (_UpdaterGUI.LOGS_ENABLED) {
             this.gui.log.append("")
-            this.gui.log.append(txt("Vers�o: ", "Version: ") this.version)
+            this.gui.log.append(txt("Vers?o: ", "Version: ") this.version)
             this.gui.log.append(txt("Arquivos para atualizar:", "Files to update:") " " this.filesToUpdate.Count())
         }
 
@@ -610,13 +610,13 @@ Class _Launcher extends _BaseClass
                     Sleep, 100
                 }
             } catch e {
-                throw Exception(txt("Falha ao fechar execut�vel tempor�rio para dele��o: ", "Failed to close temporary file for deletion: ") A_LoopFileName)
+                throw Exception(txt("Falha ao fechar execut?vel tempor?rio para dele??o: ", "Failed to close temporary file for deletion: ") A_LoopFileName)
             }
 
             try {
                 FileDelete, % A_LoopFileFullPath
             } catch e {
-                throw Exception(txt("Falha ao deletar arquivo tempor�rio: ", "Failed to delete temporary file: ") A_LoopFileName)
+                throw Exception(txt("Falha ao deletar arquivo tempor?rio: ", "Failed to delete temporary file: ") A_LoopFileName)
             }
 
         }
@@ -658,7 +658,7 @@ Class _Launcher extends _BaseClass
             if (exe.isRunning()) {
                 this.processRunningMessage(file, exe.getPID())
 
-                this.logFile(file, txt("Fechando processo do execut�vel...", "Closing executable process..."))
+                this.logFile(file, txt("Fechando processo do execut?vel...", "Closing executable process..."))
                 exe.stop()
 
                 if (exe.isRunning()) {
@@ -687,10 +687,10 @@ Class _Launcher extends _BaseClass
     */
     processRunningMessage(file, pid)
     {
-        msgbox, 52, % txt("Execut�vel rodando", "Executable running") " (" pid ")", % txt("O execut�vel do arquivo """ file  """ est� rodando`n`nDeseja fech�-lo?", "The executable of the file """ file """ is running.`n`nDo you want to close it?")
+        msgbox, 52, % txt("Execut?vel rodando", "Executable running") " (" pid ")", % txt("O execut?vel do arquivo """ file  """ est? rodando`n`nDeseja fech?-lo?", "The executable of the file """ file """ is running.`n`nDo you want to close it?")
         IfMsgBox, No
         {
-            throw Exception("Execut�vel do processo est� rodando, feche-o e tente novamente.", "Executable process is running, close it and try again.")
+            throw Exception("Execut?vel do processo est? rodando, feche-o e tente novamente.", "Executable process is running, close it and try again.")
         }
     }
 
@@ -701,7 +701,7 @@ Class _Launcher extends _BaseClass
     */
     processStillRunningException()
     {
-        throw Exception("Execut�vel do processo est� rodando, feche-o e tente novamente.", "Executable process is running, close it and try again.")
+        throw Exception("Execut?vel do processo est? rodando, feche-o e tente novamente.", "Executable process is running, close it and try again.")
     }
 
     /**
@@ -715,7 +715,7 @@ Class _Launcher extends _BaseClass
         if (ErrorLevel = pid) {
             this.processRunningMessage(file, pid)
 
-            this.logFile(file, txt("Fechando processo do execut�vel...", "Closing executable process..."))
+            this.logFile(file, txt("Fechando processo do execut?vel...", "Closing executable process..."))
             Process, Close, %pid%
             Sleep, 500
         }
@@ -1278,7 +1278,7 @@ Class _Launcher extends _BaseClass
 
             Sleep, 2000
             Gui, Watermark:Destroy
-            Msgbox, 48,, % LANGUAGE = "PT-BR" ? "AutoHotkey n�o est� instalado no diret�rio """ dir "\Autohotkey"".`n`nProssiga com a instala��o(""Express Installation"") que foi aberta." : "AutoHotkey is not installed in the directory """ dir "\Autohotkey"".`n`nProceed with the installation(""Express Installation"") that has been opened."
+            Msgbox, 48,, % LANGUAGE = "PT-BR" ? "AutoHotkey n?o est? instalado no diret?rio """ dir "\Autohotkey"".`n`nProssiga com a instala??o(""Express Installation"") que foi aberta." : "AutoHotkey is not installed in the directory """ dir "\Autohotkey"".`n`nProceed with the installation(""Express Installation"") that has been opened."
 
             reload
             Sleep, 10000
@@ -1476,7 +1476,7 @@ Class _Launcher extends _BaseClass
 
         if (!isProcessElevated(DllCall("GetCurrentProcessId"))) {
             Gui, Watermark:Destroy
-            MsgBox, 64,, % txt("Launcher n�o est� rodando como Administrador, por favor execute como ADMIN.", "Launcher is not running as Administrator, please run it ADMIN."), 10
+            MsgBox, 64,, % txt("Launcher n?o est? rodando como Administrador, por favor execute como ADMIN.", "Launcher is not running as Administrator, please run it ADMIN."), 10
             ExitApp
         }
     }

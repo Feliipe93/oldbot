@@ -1,14 +1,14 @@
 
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\scripts_autoload_section.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\scripts_autoload_section.ahk
 
 #Include 
 
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes/_ProcessHandler.ahk
+#Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\Classes/_ProcessHandler.ahk
 /*
 Project files
 */
-; #Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\default_global_variables.ahk
-; #Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\mouse_keyboard_functions.ahk
+; #Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\default_global_variables.ahk
+; #Include C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\mouse_keyboard_functions.ahk
 
 PID := _ProcessHandler.readExePID("OldBotExeName")
 Process,Exist,%PID%

@@ -1,5 +1,5 @@
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Shared\_BaseClass.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\libraries\FormData.ahk
+#Include C:\Users\felip\Documents\GitHub\oldbot\__Files\Shared\_BaseClass.ahk
+#Include C:\Users\felip\Documents\GitHub\oldbot\__Files\libraries\FormData.ahk
 
 /**
 * @property object body
@@ -68,7 +68,7 @@ class _AbstractRequest extends _BaseClass
             retry(this.send.bind(this, body), this.RETRIES, this.RETRY_DELAY, this.__Class)
         } catch e {
             _Logger.exception(e, A_ThisFunc, this.getRoute())
-            throw Exception(txt("Erro na comunicação com o servidor, por favor tente novamente e se problema persistir contate o suporte.", "Server communication error, please try again and if the problem persists contact the support.") "`n`nError: " e.Message)
+            throw Exception(txt("Erro na comunicao com o servidor, por favor tente novamente e se problema persistir contate o suporte.", "Server communication error, please try again and if the problem persists contact the support.") "`n`nError: " e.Message)
             throw e
         }
 

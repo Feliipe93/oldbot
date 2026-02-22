@@ -7,10 +7,10 @@ Copyright ? 2017 All rights reserved.
 */
 LOAD_ITEMS := 1
 
-#WarnContinuableException Off
+#Warn All, Off
 #SingleInstance, Force
 #MaxMem 2048
-SetWorkingDir %A_WorkingDir% ; Ensur;es a consistent starting directory.
+SetWorkingDir %A_WorkingDir% ; Ensures a consistent starting directory.
 ; Process, Priority, %PID%, High
 #NoTrayIcon
 #NoEnv ; Recommended for performance and compatibility with future AutoHotkey releases.
@@ -57,46 +57,46 @@ Project files
 Includes folder
 */
 #Include __Files\Includes\_Core.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\IExecutables.ahk
+#Include C:\Users\felip\Documents\GitHub\oldbot\__Files\Includes\IExecutables.ahk
 
 #Include __Files\Includes\Cavebot\ICavebot.ahk
 #Include __Files\Includes\Client.ahk
 #Include __Files\Includes\IHealing.ahk
 #Include __Files\Includes\ISupport.ahk
 #Include __Files\Includes\Item Refill.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\ILooting.ahk
+#Include C:\Users\felip\Documents\GitHub\oldbot\__Files\Includes\ILooting.ahk
 #Include __Files\Includes\Script.ahk
 #Include __Files\Includes\Sio.ahk
 #Include __Files\Includes\Targeting.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\IActionScripts.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\IEvents.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\ILibraries.ahk
+#Include C:\Users\felip\Documents\GitHub\oldbot\__Files\Includes\IActionScripts.ahk
+#Include C:\Users\felip\Documents\GitHub\oldbot\__Files\Includes\IEvents.ahk
+#Include C:\Users\felip\Documents\GitHub\oldbot\__Files\Includes\ILibraries.ahk
 
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Includes\Actions\ICavebot.ahk
+#Include C:\Users\felip\Documents\GitHub\oldbot\__Files\Includes\Actions\ICavebot.ahk
 /*
 Classes
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\_CreaturesHandler.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\_ItemsHandler.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\_ProcessHandler.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Thread\_ThreadManager.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Config\_ImagesConfig.ahk ; depends on TibiaClient
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\_OldBotSettings.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Waypoint\_WaypointHandler.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Waypoint\_WaypointValidation.ahk
+#Include C:\Users\felip\Documents\GitHub\oldbot\__Files\Classes\_CreaturesHandler.ahk
+#Include C:\Users\felip\Documents\GitHub\oldbot\__Files\Classes\_ItemsHandler.ahk
+#Include C:\Users\felip\Documents\GitHub\oldbot\__Files\Classes\_ProcessHandler.ahk
+#Include C:\Users\felip\Documents\GitHub\oldbot\__Files\Classes\Thread\_ThreadManager.ahk
+#Include C:\Users\felip\Documents\GitHub\oldbot\__Files\Classes\Config\_ImagesConfig.ahk ; depends on TibiaClient
+#Include C:\Users\felip\Documents\GitHub\oldbot\__Files\Classes\_OldBotSettings.ahk
+#Include C:\Users\felip\Documents\GitHub\oldbot\__Files\Classes\Waypoint\_WaypointHandler.ahk
+#Include C:\Users\felip\Documents\GitHub\oldbot\__Files\Classes\Waypoint\_WaypointValidation.ahk
 /*
 GUI Classes
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\GUI\Cavebot\_MinimapGUI.ahk
+#Include C:\Users\felip\Documents\GitHub\oldbot\__Files\Classes\GUI\Cavebot\_MinimapGUI.ahk
 /*
 Others Classes
 */
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\_Telegram.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\_Encryptor.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Hotkeys\_HotkeyRegister.ahk
+#Include C:\Users\felip\Documents\GitHub\oldbot\__Files\Classes\_Telegram.ahk
+#Include C:\Users\felip\Documents\GitHub\oldbot\__Files\Classes\_Encryptor.ahk
+#Include C:\Users\felip\Documents\GitHub\oldbot\__Files\Classes\Hotkeys\_HotkeyRegister.ahk
 
 
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Classes\Objects\_Magick.ahk
+#Include C:\Users\felip\Documents\GitHub\oldbot\__Files\Classes\Objects\_Magick.ahk
 version := _Version.BETA_ENABLED ? _Version.BETA : _Version.CURRENT
 /*
 for AlertsSystem cavebot window title
@@ -2098,6 +2098,6 @@ ShowWaypointsTimer:
 return
 
 #Include __Files\default_functions.ahk
-#Include C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\Shared\OldBot\default_functions.ahk
+#Include C:\Users\felip\Documents\GitHub\oldbot\__Files\Shared\OldBot\default_functions.ahk
 #Include __Files\default_cavebot_functions.ahk
 #Include __Files\labels_minimap_cavebot.ahk

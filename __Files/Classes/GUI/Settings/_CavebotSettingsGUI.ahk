@@ -51,7 +51,7 @@ Class _CavebotSettingsGUI extends _GUI
     */
     settings()
     {
-        #Include, C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\GUIs\Components\settings_script_title.ahk
+        #Include, C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\GUIs\Components\settings_script_title.ahk
             new _Text().title("Delay caminhar pelas setas", "Walk by arrow delay", ":")
             .xs().y()
             .tt("Delay que o bot esperará após pressionar a seta para andar.", "Delay that the bot will wait after pressing the arrow to walk.")
@@ -67,7 +67,7 @@ Class _CavebotSettingsGUI extends _GUI
             .parent()
             .add()
 
-        #Include, C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\GUIs\Components\Cavebot\cavebot_settings.ahk
+        #Include, C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\GUIs\Components\Cavebot\cavebot_settings.ahk
     }
 
 
@@ -75,7 +75,7 @@ Class _CavebotSettingsGUI extends _GUI
     {
         _AbstractStatefulControl.SET_DEFAULT_STATE(_CavebotIniSettings)
 
-        #Include, C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\GUIs\Components\settings_profile_title.ahk
+        #Include, C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\GUIs\Components\settings_profile_title.ahk
 
 
             new _Checkbox().title("Manter chat off após enviar mensagem", "Turn chat off after sending message")
@@ -91,9 +91,9 @@ Class _CavebotSettingsGUI extends _GUI
             .disabled(isMemoryCoordinates())
             .add()
 
-        #Include, C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\GUIs\Components\Cavebot\cavebot_ini_settings.ahk
-        #Include, C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\GUIs\Components\Cavebot\pause_hotkeys.ahk
+        #Include, C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\GUIs\Components\Cavebot\cavebot_ini_settings.ahk
+        #Include, C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\GUIs\Components\Cavebot\pause_hotkeys.ahk
 
-        #Include, C:\Users\Alfredo\Documents\GitHub\oldbot\__Files\GUIs\Components\Cavebot\special_areas_settings.ahk
+        #Include, C:\\Users\\felip\\Documents\\GitHub\\oldbot\__Files\GUIs\Components\Cavebot\special_areas_settings.ahk
     }
 }
